@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default class HigherComponent extends React.Component {
-  componentDidMount() {
+  componentWillMount() {
     this.props.onEnter(this.props.routerProps);
   }
 
